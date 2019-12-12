@@ -39,7 +39,7 @@ class PopularMovieAdapter(
         }
 
         private fun onMovieItemClick(movie: Movie) {
-            val url = "movie://detail/${movie.movieId}".toUri()
+            val url = "movie://detail/${movie.id}".toUri()
             itemView.context.startActivity(Intent(Intent.ACTION_VIEW, url))
         }
 

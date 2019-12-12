@@ -42,6 +42,7 @@ dependencies {
     /* Feature Module should add below */
     implementation project(Modules.abstraction)
     implementation project(Modules.movie)
+    implementation project(Modules.moviedetail)
 }
 
 repositories {
